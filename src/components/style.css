@@ -624,4 +624,13 @@ html{
     .c-copy{
         font-size: 15px;
     }
+
+    @media screen and (max-width: 500px) {
+        .c-div-R{
+            padding: 15px;
+        }
+        .c-div-L{
+            padding: 15px;
+        }
+    }
 }
