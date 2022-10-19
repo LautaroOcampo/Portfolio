@@ -10,7 +10,8 @@ export const data = [
        img:p1,
        href: 'https://ocampo-ecommerce-react.netlify.app/',
        tec1:'react js',
-       tec2:'firebase'
+       tec2:'firebase',
+       id:1
     },
     {
        title:'Snake Game',
@@ -18,7 +19,8 @@ export const data = [
        img:p2,
        href: 'https://ocampo-snake.netlify.app/',
        tec1:'javascript',
-       tec2:'styled-components'
+       tec2:'styled-components',
+       id:2
     },
     {
        title:'Clothes Shop Ecommerce',
@@ -26,7 +28,8 @@ export const data = [
        img:p3,
        href: 'https://ocampo-ecormmerce-js.netlify.app/',
        tec1:'javascript',
-       tec2:'json'
+       tec2:'json',
+       id:3
     },
     {
        title:'Restaurant Web',
@@ -34,6 +37,7 @@ export const data = [
        img:p4,
        href: 'https://app.netlify.com/sites/ocampo-restaurant/overview',
        tec1:'javascript',
-       tec2:'styled-components'
+       tec2:'styled-components',
+       id:4
     }
 ]

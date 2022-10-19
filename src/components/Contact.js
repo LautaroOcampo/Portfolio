@@ -7,7 +7,7 @@ export const Contact = () => {
         <section id='Contact' className='contact'>
             <div className='c-div'>
                 <div className='c-div-L'>
-                    <h3 className="c-h3">Contact Me</h3>
+                    <h3 className="c-h3">Contact <br></br>Me</h3>
                 </div>
                 <div className='c-div-R'>
                     <p className='c-p'><b>Lautaro Ocampo</b></p>

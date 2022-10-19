@@ -12,7 +12,7 @@ export const Projects = () => {
                     {
                         data.map((ele) => {
                             return(
-                                <ProjectsItem data={ele}/>
+                                <ProjectsItem key={ele.id} data={ele}/>
                             )
                         })
                     }

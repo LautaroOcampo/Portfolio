@@ -3,6 +3,7 @@ import './style.css'
 import me from './imgs/Foto CV.jpeg'
 
 export const Home = () => {
+
     return(
         <section id='Home' className='home'>
             <div className='h-div-info'>
