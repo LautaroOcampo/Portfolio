@@ -65,7 +65,7 @@ html{
     color: #ffffff;
     position: fixed;
     top: 2vh;
-    left: 3vw;
+    left: 5vw;
     transition-duration: .5s;
     z-index: 2000;
     visibility: hidden;
