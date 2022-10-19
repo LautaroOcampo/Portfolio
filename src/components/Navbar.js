@@ -37,7 +37,7 @@ export const Navbar = () => {
             <div className={translate ? 'mobile-menu translate' : 'mobile-menu'}>
                 <h4 className='mobile-menu-h4'>Lautaro Ocampo</h4>
                 <a className='mobile-menu-item' onClick={handleItem} href="#AboutMe">AboutMe</a>
-                <a className='mobile-menu-item' onClick={handleItem} href="Technologies">Technologies</a>
+                <a className='mobile-menu-item' onClick={handleItem} href="#Technologies">Technologies</a>
                 <a className='mobile-menu-item' onClick={handleItem} href="#Projects">Projects</a>
                 <a className='mobile-menu-item' onClick={handleItem} href="#Contact">Contact</a>
             </div>
