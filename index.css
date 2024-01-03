@@ -1,0 +1,223 @@
+@import url('https://fonts.cdnfonts.com/css/blogger-sans');
+
+*{
+    font-family: 'Blogger Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2f0f0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f0f0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+nav img{
+    height: 130px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul a {
+    margin: 0 15px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    position: relative;
+    color: #333; /* color del texto */
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  nav ul a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* distancia del subrayado al texto */
+    width: 0;
+    height: 2px; /* grosor del subrayado */
+    background-image: linear-gradient(90deg, transparent, #333, transparent); /* color del subrayado */
+    transition: width 0.3s ease; /* animación de la transición del subrayado */
+  }
+  
+  nav ul a:hover::after {
+    width: 100%;
+  }
+
+nav div{
+    margin-left: 50px;
+}
+
+nav div img{
+    height: 50px;
+}
+
+.about-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section h3{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.about-section p{
+    width: 50%;
+    font-size: 28px;
+}
+
+
+.projects-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects-section h3{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.projects-section div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-section img{
+    width: 95%;
+    height: 300px;
+    margin: 15px 0;
+}
+
+.projects-section p{
+    font-size: 50px;
+}
+
+.projects-row {
+    display: flex;
+}
+
+.project-item {
+  position: relative;
+}
+
+.project-item div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 95%;
+  height: 300px;
+  background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro para el div */
+  color: white; /* Color del texto en el div */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+  opacity: 0;
+  transition: opacity 0.7s ease; /* Animación de la transición de opacidad */
+}
+
+.project-item:hover div {
+  opacity: 1;
+}
+
+.project-item h5{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.project-item button{
+    font-size: 18px;
+    background-color: #fff; 
+    color: #333;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.c-div{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(0, 0, 0, .7);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.c-div-L{
+    padding: 50px;
+    border-right: 1px solid #ffffff;
+    height: 15vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.c-h3{
+    font-size: 80px;
+    color: #ffffff;
+}
+
+.c-div-R{
+    padding: 50px;
+    border-left: 1px solid #ffffff;
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.c-p{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.c-icons{
+    color: #ffffff;
+    font-size: 40px;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.c-copy{
+    font-size: 20px;
+    color: #ffffff;
+}
