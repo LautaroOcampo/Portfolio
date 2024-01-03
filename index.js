@@ -28,3 +28,4 @@ document.querySelector('#ingles').addEventListener('click',() => {
     document.querySelector('.projects-section p').innerText = 'AND MORE...'
     document.querySelector('c-h3').innerText = 'Contact Me'
 })
+
