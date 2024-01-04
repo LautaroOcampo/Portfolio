@@ -29,3 +29,10 @@ document.querySelector('#ingles').addEventListener('click',() => {
     document.querySelector('c-h3').innerText = 'Contact Me'
 })
 
+let menuButton = document.querySelector('.menu-button')
+let menuMobile = document.querySelector('.menu-mobile')
+
+menuButton.addEventListener('click', () => {
+    menuButton.classList.toggle('rotate')
+    menuMobile.classList.toggle('translate')
+})

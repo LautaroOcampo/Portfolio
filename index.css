@@ -125,11 +125,14 @@ nav div img{
 }
 
 .projects-row {
+    width: 100%;
     display: flex;
+    justify-content: center;
 }
 
 .project-item {
   position: relative;
+  width: 533px;
 }
 
 .project-item div {
@@ -189,7 +192,6 @@ nav div img{
 
 .c-div-L{
     padding: 50px;
-    border-right: 1px solid #ffffff;
     height: 15vh;
     width: 50%;
     display: flex;
@@ -204,7 +206,7 @@ nav div img{
 
 .c-div-R{
     padding: 50px;
-    border-left: 1px solid #ffffff;
+    border-left: 2px solid #ffffff;
     height: 20vh;
     width: 50%;
     display: flex;
@@ -240,10 +242,53 @@ nav div img{
 .menu-button{
     height: 30px;
     display: none;
+    transition-duration: .3s;
+
 }
 
 .rotate{
-    transform: rotate(90deg);
+    transform: rotate(-90deg);
+    transition-duration: .3s;
+
+}
+
+.menu-mobile{
+    position: fixed;
+    left: 100vw;
+    height: 100vh;
+    width: 100vw;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 900;
+    transition-duration: .3s;
+
+}
+
+.menu-mobile li{
+    color: #f2f0f0;
+    list-style-type: none;
+    margin: 15px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.translate{
+    left: 0;
+    transition-duration: .3s;
+}
+
+@media (max-width: 1400px) {
+    .projects-section img{
+      height: 233px;
+    }
+
+    .project-item div{
+        height: 233px;
+    }
 }
 
 @media (max-width: 769px) {
@@ -269,6 +314,11 @@ nav div img{
 
     .projects-row {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .project-item{
+        width: 80%;
     }
 
     .c-div{
@@ -282,6 +332,22 @@ nav div img{
 
     .c-div-L{
         border: none;
-        border-bottom: 1px solid #ffffff;
+    }
+
+    .c-div-R{
+        width: auto;
+        padding: 0;
+    }
+
+    .c-h3{
+        font-size: 65px;
+    }
+
+    .c-p{
+        font-size: 20px;
     }
   }
+
+.invisible{
+    visibility: hidden;
+}
