@@ -15,6 +15,9 @@ document.querySelector('#español').addEventListener('click',() => {
     document.querySelector('.about-section h3').innerText = 'SOBRE MÍ'
     document.querySelector('.about-section p').innerText = 'Soy Lautaro Ocampo, un desarrollador front-end con experiencia en plataformas de comercio electrónico como Shopify, MercadoShops, TiendaNube, etc. Mi enfoque es crear y desarrollar tiendas online funcionales y personalizadas para satisfacer las necesidades específicas de tu negocio.'
     document.querySelector('.projects-section h3').innerText = 'PROYECTOS'
+    document.querySelectorAll('.project-item h5')[2].innerText = 'IMPORTACIONES A MEXICO (REPLICA)'
+    document.querySelectorAll('b')[0].innerText = 'contraseña: aivewy'
+    document.querySelectorAll('b')[1].innerText = 'contraseña: ocampo'
     document.querySelector('.projects-section p').innerText = 'Y MAS...'
     document.querySelector('c-h3').innerText = 'Contactame'
 })
@@ -25,6 +28,9 @@ document.querySelector('#ingles').addEventListener('click',() => {
     document.querySelector('.about-section h3').innerText = 'ABOUT ME'
     document.querySelector('.about-section p').innerText = `Hi! I'm Lautaro Ocampo an experienced front end developer specializing in ecommerce platforms like Shopify, MercadoShops, TiendaNube, etc. My focus is on creating and developing functional and custom online stores to meet your specific business needs.`
     document.querySelector('.projects-section h3').innerText = 'PROJECTS'
+    document.querySelectorAll('.project-item h5')[2].innerText = 'IMPORTACIONES A MEXICO (REPLICATION)'
+    document.querySelectorAll('b')[0].innerText = 'password: aivewy'
+    document.querySelectorAll('b')[1].innerText = 'password: ocampo'
     document.querySelector('.projects-section p').innerText = 'AND MORE...'
     document.querySelector('c-h3').innerText = 'Contact Me'
 })
